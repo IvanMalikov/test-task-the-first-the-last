@@ -70,13 +70,13 @@ import MarqueeText from 'vue-marquee-text-component'
         }
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
         .marquee-text-wrap {
-            -webkit-transform: skewY(118deg);
-            -moz-transform: skewY(118deg);
-            -ms-transform: skewY(118deg);
-            -o-transform: skewY(118deg);
-            transform: skewY(118deg);
+            -webkit-transform: skewY(120deg);
+            -moz-transform: skewY(120deg);
+            -ms-transform: skewY(120deg);
+            -o-transform: skewY(120deg);
+            transform: skewY(120deg);
             font-size: 28px;
             line-height: 31px;
         }

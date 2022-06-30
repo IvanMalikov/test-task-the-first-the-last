@@ -56,7 +56,7 @@ import gsap from 'gsap'
         }
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
         .showreel {
             width: 90px;
             height: 90px;

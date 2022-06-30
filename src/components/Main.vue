@@ -104,7 +104,7 @@
         }
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 415px) {
         .main {
             .agency {
                 top: 70px;

@@ -192,7 +192,48 @@ import gsap from 'gsap'
         }
     }
 
-    @media (max-width: 375px) {
+    // @media (max-width: 415px) {
+    //     .header {
+    //         .tongue {
+    //             display: flex;
+    //             padding-left: 14px;
+    //             align-items: center;
+    //             font-size: 14px;
+    //             line-height: 18px;
+
+    //             .langs {
+    //                 display: flex;
+    //             }
+
+    //             img {
+    //                 margin-right: 5px;
+    //             }
+                
+    //             .ru {
+    //                 margin-right: 5px;
+    //                 opacity: 0;
+    //             }
+
+    //             .ua {
+    //                 opacity: 0;
+    //             }
+    //         }
+
+    //         .logo {
+    //             padding-right: 64px;
+    //         }
+    //         .burger {
+    //             opacity: 1;
+    //             z-index: 100;
+    //         }
+
+    //         .burger-menu-list {
+    //             opacity: 1;
+    //         }
+    //     }
+    // }
+
+    @media (max-width: 415px) {
         .header {
             .tongue {
                 display: flex;
