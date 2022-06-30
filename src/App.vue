@@ -1,32 +1,49 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <transition name="slide" mode="out-in">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+import Home from './views/Home.vue'
+import gsap from 'gsap'
+  export default {
+    components: {
+      Home
+    },
+    
   }
-}
+</script>
+
+<style lang="scss">
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #app {
+    overflow: hidden;
+    position: relative;
+    color: #373737;
+    height: 100vh;
+    width: 100%;
+    background-color: #BEBEBE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .slide-enter-active, .slide-leave-active {
+    transition: transform 1s;
+  }
+
+  .slide-enter, .slide-leave-to {
+    transform: translateX(-100%);
+  }
+
+  .slide-enter-to, .slide-leave {
+    transform: translateX(0);
+  }
 </style>
