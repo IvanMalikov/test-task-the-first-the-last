@@ -15,5 +15,10 @@ npm run serve
 npm run build
 ```
 
+### Hosted on Firebase
+```
+https://test-task-the-first-the-last.web.app
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

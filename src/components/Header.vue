@@ -218,9 +218,6 @@ import gsap from 'gsap'
                     opacity: 0;
                 }
             }
-            .logo {
-                // padding-right: 0;
-            }
             .burger {
                 opacity: 1;
                 z-index: 100;
